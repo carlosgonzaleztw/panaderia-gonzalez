@@ -6,14 +6,20 @@ import {
   ProductsScreen,
 } from '../screens/Screens';
 
-const Stack = createNativeStackNavigator();
+export type RootStackParamList = {
+  Categories: undefined;
+  Products: undefined;
+  ProductDetails: undefined;
+};
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const MainNavigator = () => {
   return (
     <Stack.Navigator initialRouteName="Categories">
       <Stack.Screen name="Categories" component={CategoriesScreen} />
       <Stack.Screen name="Products" component={ProductsScreen} />
-      <Stack.Screen name="Product Details" component={ProductDetailsScreen} />
+      <Stack.Screen name="ProductDetails" component={ProductDetailsScreen} />
     </Stack.Navigator>
   );
 };
