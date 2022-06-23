@@ -8,31 +8,31 @@ export const categories: Categories[] = [
   {
     id: 1,
     title: 'Harinas Puras',
-    color: '#C6CAED',
+    color: '#d9ed92',
   },
   {
     id: 2,
     title: 'Harinas Integrales',
-    color: '#ADA8BE',
+    color: '#b5e48c',
   },
   {
     id: 3,
     title: 'Harinas de Trigo',
-    color: '#A28497',
+    color: '#99d98c',
   },
   {
     id: 4,
     title: 'Harinas de Maíz',
-    color: '#8896AB',
+    color: '#76c893',
   },
   {
     id: 5,
     title: 'Harinas de Centeno',
-    color: '#C5D5E4',
+    color: '#52b69a',
   },
   {
     id: 6,
     title: 'Harinas de Cebada',
-    color: '#F0B5B3',
+    color: '#34a0a4',
   },
 ];
